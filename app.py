@@ -109,7 +109,7 @@ def generate_pdf_report(module2_content):
     
     # ----- Cover Page with Company Logo -----
     pdf.add_page()
-    logo_path = r"D:\wobb\review\123.png"
+    logo_path = r"123.png"
     try:
         # Adjust the x, y, and width (w) as needed to position and scale your logo.
         pdf.image(logo_path, x=50, y=30, w=100)
