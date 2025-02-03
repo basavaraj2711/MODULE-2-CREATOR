@@ -134,7 +134,7 @@ def generate_pdf_report(module2_content):
 st.set_page_config(page_title="Pharma docket automatic module 2 creator", page_icon="📄", layout="wide")
 
 # Display the company logo in the UI centered at a medium size
-logo_path_ui = r"D:\wobb\review\123.png"
+logo_path_ui = r"123.png"
 try:
     # Create three columns and display the logo in the center column
     cols = st.columns(3)
